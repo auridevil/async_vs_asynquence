@@ -1,0 +1,21 @@
+{
+  "name": "asnc-bench",
+  "version": "0.0.1",
+  "description": "Test timing for async and asynquence",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "run": "node run.js",
+    "test": "node run.js",
+    "run-async": "node run.js async",
+    "run-asq":"node run.js asq"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.2",
+    "asynquence": "^0.9.0",
+    "asynquence-contrib": "^0.27.0",
+    "sieve": "0.0.4"
+  }
+}
