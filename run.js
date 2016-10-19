@@ -14,11 +14,11 @@ var calculate = function (cb) {
   cb();
 };
 var sampleArray = Array.apply(null,
-    Array(ARRAY_SIZE))
-    .map((item) = > {
-    return calculate;
-})
-;
+  Array(ARRAY_SIZE))
+    .map(function (item) {
+      return calculate;
+    })
+  ;
 
 
 var useAync = false;
