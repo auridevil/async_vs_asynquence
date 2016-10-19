@@ -13,8 +13,12 @@ var calculate = function (cb) {
   var primes = sieve(MAX); // calculate all primes from 1 to MAX
   cb();
 };
-var sampleArray = Array.apply(null, Array(ARRAY_SIZE)).map(calculate);
-
+var sampleArray = Array.apply(null,
+    Array(ARRAY_SIZE))
+    .map((item) = > {
+    return calculate;
+})
+;
 
 
 var useAync = false;
@@ -22,8 +26,8 @@ var useAync = false;
 if (process.argv[2] === 'async') {
 
   //  map async
-  var step2= function() {
-    var asyncMap = 'async_map';
+  var step2 = function () {
+    var asyncMap = 'async_map' + ARRAY_SIZE;
     console.log(asyncMap, 'start');
     console.time(asyncMap);
     async.each(
@@ -37,7 +41,7 @@ if (process.argv[2] === 'async') {
   };
 
   // 10 waterfall async
-  var asyncWaterfall10 = 'async_waterfall_10';
+  var asyncWaterfall10 = 'async_waterfall' + ARRAY_SIZE;
   console.log(asyncWaterfall10, 'start');
   console.time(asyncWaterfall10);
   async.waterfall(
@@ -48,12 +52,11 @@ if (process.argv[2] === 'async') {
     });
 
 
-
 } else if (process.argv[2] === 'asq') {
 
   //  map asq
-  var step2 = function() {
-    var asqMap = 'asq_map';
+  var step2 = function () {
+    var asqMap = 'asq_map' + ARRAY_SIZE;
     console.log(asqMap, 'start');
     console.time(asqMap);
     ASQ_MAP().map(
@@ -67,7 +70,7 @@ if (process.argv[2] === 'async') {
   };
 
   // 10 waterfall asq
-  var asqWaterfall10 = 'asq_waterfall_10';
+  var asqWaterfall10 = 'asq_waterfall' + ARRAY_SIZE;
   console.log(asqWaterfall10, 'start');
   console.time(asqWaterfall10);
   ASQ(calculate)
