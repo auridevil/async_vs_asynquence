@@ -1,0 +1,58 @@
+
+CALLIOPE:  25 - not stepped
+
+asq_waterfall_10: 29481.077ms
+asq_map: 110999.981ms
+
+asq_waterfall_10: 29110.913ms
+asq_map: 111192.577ms
+
+asq_waterfall_10: 32245.468ms
+asq_map: 116284.846ms
+
+async_waterfall_10: 28141.644ms
+async_map: 74939.071ms
+
+async_waterfall_10: 26449.917ms
+async_map: 73575.960ms
+
+
+
+============================================================================================================
+
+CALLIOPE: 10 - stepped
+
+async_waterfall_10 start
+async_waterfall_10: 28968.504ms
+async_map start
+async_map: 27953.697ms
+
+async_waterfall_10 start
+async_waterfall_10: 29430.483ms
+async_map start
+async_map: 34906.580ms
+
+async_waterfall_10 start
+async_waterfall_10: 29303.646ms
+async_map start
+async_map: 28603.945ms
+
+asq_waterfall_10 start
+asq_waterfall_10: 26877.206ms
+asq_map start
+asq_map: 27027.235ms
+
+asq_waterfall_10 start
+asq_waterfall_10: 30340.873ms
+asq_map start
+asq_map: 32522.461ms
+
+asq_waterfall_10 start
+asq_waterfall_10: 31053.566ms
+asq_map start
+asq_map: 34954.724ms
+
+asq_waterfall_10 start
+asq_waterfall_10: 31064.588ms
+asq_map start
+asq_map: 32433.569ms

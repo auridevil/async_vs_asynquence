@@ -1,16 +1,16 @@
 {
-  "name": "asnc-bench",
+  "name": "async_vs_asynquence",
   "version": "0.0.1",
   "description": "Test timing for async and asynquence",
   "main": "run.js",
   "scripts": {
-    "start": "node run.js",
-    "run": "node run.js",
-    "test": "node run.js",
+    "start": "echo 'use: npm run-script run-async/run-asq'",
+    "run": "echo 'use: npm run-script run-async/run-asq'",
+    "test": "echo 'use: npm run-script run-async/run-asq'",
     "run-async": "node run.js async",
     "run-asq":"node run.js asq"
   },
-  "author": "",
+  "author": "konsciomusic@gmail.com",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.2",
