@@ -1,58 +1,101 @@
 
-CALLIOPE:  25 - not stepped
-
-asq_waterfall_10: 29481.077ms
-asq_map: 110999.981ms
-
-asq_waterfall_10: 29110.913ms
-asq_map: 111192.577ms
-
-asq_waterfall_10: 32245.468ms
-asq_map: 116284.846ms
-
-async_waterfall_10: 28141.644ms
-async_map: 74939.071ms
-
-async_waterfall_10: 26449.917ms
-async_map: 73575.960ms
-
-
-
-============================================================================================================
-
-CALLIOPE: 10 - stepped
 
 async_waterfall_10 start
 async_waterfall_10: 28968.504ms
-async_map start
-async_map: 27953.697ms
+async_map10 start
+async_map10: 27953.697ms
 
 async_waterfall_10 start
 async_waterfall_10: 29430.483ms
-async_map start
-async_map: 34906.580ms
+async_map10 start
+async_map10: 34906.580ms
 
 async_waterfall_10 start
 async_waterfall_10: 29303.646ms
-async_map start
-async_map: 28603.945ms
+async_map10 start
+async_map10: 28603.945ms
 
 asq_waterfall_10 start
 asq_waterfall_10: 26877.206ms
-asq_map start
-asq_map: 27027.235ms
+asq_map10 start
+asq_map10: 27027.235ms
 
 asq_waterfall_10 start
 asq_waterfall_10: 30340.873ms
-asq_map start
-asq_map: 32522.461ms
+asq_map10 start
+asq_map10: 32522.461ms
 
 asq_waterfall_10 start
 asq_waterfall_10: 31053.566ms
-asq_map start
-asq_map: 34954.724ms
+asq_map10 start
+asq_map10: 34954.724ms
 
 asq_waterfall_10 start
 asq_waterfall_10: 31064.588ms
-asq_map start
-asq_map: 32433.569ms
+asq_map10 start
+asq_map10: 32433.569ms
+
+async_waterfall20 start
+async_waterfall20: 55968.294ms
+async_map20 start
+async_map20: 55813.072ms
+
+async_waterfall20 start
+async_waterfall20: 55829.627ms
+async_map20 start
+async_map20: 55692.547ms
+
+async_waterfall20 start
+async_waterfall20: 55683.537ms
+async_map20 start
+async_map20: 55727.709ms
+
+asq_waterfall20 start
+asq_waterfall20: 55692.807ms
+asq_map20 start
+asq_map20: 55768.224ms
+
+asq_waterfall20 start
+asq_waterfall20: 55566.284ms
+asq_map20 start
+asq_map20: 56003.180ms
+
+asq_waterfall20 start
+asq_waterfall20: 55740.267ms
+asq_map20 start
+asq_map20: 55881.511ms
+
+asq_waterfall100 start
+asq_waterfall100: 279230.746ms
+asq_map100 start
+asq_map100: 279957.923ms
+
+asq_waterfall100 start
+asq_waterfall100: 278565.170ms
+asq_map100 start
+asq_map100: 278754.648ms
+
+asq_waterfall100 start
+asq_waterfall100: 277372.482ms
+asq_map100 start
+asq_map100: 277158.628ms
+
+async_waterfall100 start
+async_waterfall100: 284751.139ms
+async_map100 start
+async_map100: 281124.250ms
+
+async_waterfall100 start
+async_waterfall100: 284751.139ms
+async_map100 start
+async_map100: 281124.250ms
+
+async_waterfall100 start
+async_waterfall100: 316538.534ms
+async_map100 start
+async_map100: 318522.821ms
+
+async_waterfall100 start
+async_waterfall100: 316190.892ms
+async_map100 start
+async_map100: 315454.916ms
